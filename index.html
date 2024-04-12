@@ -7,126 +7,271 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <span>GUIISH0W</span>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
-        <a href="">Hobbies</a>
-        <a href="">Education</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
-      </nav>
-    </header>
+    <div class="all">
+      <section class="menu">
+      <header>
+        <img class="logo" src="./src/img/GS_logo.png">
+        <h3 class="menu__title">GUIISH0W</h3>
+      </header>
+        <nav>
+          <ul class="menu__list">
+            <li><a class="menu__list__item" href="">Home</a></li>
+            <li><a class="menu__list__item" href="">About</a></li>
+            <li><a class="menu__list__item" href="">Skills</a></li>
+            <li><a class="menu__list__item" href="">Hobbies</a></li>
+            <li><a class="menu__list__item" href="">Education</a></li>
+            <li><a class="menu__list__item" href="">Projects</a></li>
+            <li><a class="menu__list__item" href="">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
 
-    <body>
-      <div>
-        <section>
-          <h1>
-            Dolor ut consequat officia qui anim aliqua dolore ea aute do eiusmod
-            deserunt commodo.
-          </h1>
-          <p>
-            Mollit nostrud non nulla anim labore exercitation voluptate eu
-            minim. Cupidatat consectetur ipsum ea in esse qui cupidatat culpa.
-            Et ex mollit velit deserunt laborum consequat proident commodo ex.
-            Veniam deserunt eiusmod minim tempor incididunt mollit duis duis.
-          </p>
-          <a href="#">Github</a>
-          <a href="#">Linkedin</a>
-          <a href="#">Instagram</a>
-          <a href="#">Curriculum</a>
-          <img src="" alt="" />
-        </section>
-        <section>
-          <h1>About</h1>
-          <p>
-            Quis excepteur sint magna culpa consectetur pariatur id laborum
-            cillum sunt pariatur ea. Ad sunt enim ea deserunt laborum commodo et
-            ex. Voluptate id proident officia incididunt labore nostrud
-            incididunt dolore aliqua esse. Consectetur laboris culpa id elit
-            occaecat ullamco nostrud voluptate.
-          </p>
-          <img src="" alt="" />
-        </section>
-        <section>
-          <h1>Skills</h1>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </section>
-        <section>
-          <h1>Hobbies</h1>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </section>
-        <section>
-          <h1>Education</h1>
-          <div>
-            <img src="" alt="" />
-            <h2>Ipsum officia Lorem</h2>
-            <p>Non aute</p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h2>Ipsum officia Lorem</h2>
-            <p>Non aute</p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h2>Ipsum officia Lorem</h2>
-            <p>Non aute</p>
-          </div>
-        </section>
-        <section>
-          <h1>Projects</h1>
-          <div>
-            <img src="" alt="" />
-            <div>
-              <h2>Ipsum officia Lorem</h2>
-              <p>Non aute dolore aliqua</p>
-              <a href="">Repository</a>
-              <a href="">Demo</a>
-            </div>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <div>
-              <h2>Ipsum officia Lorem</h2>
-              <p>Non aute dolore aliqua</p>
-              <a href="">Repository</a>
-              <a href="">Demo</a>
-            </div>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <div>
-              <h2>Ipsum officia Lorem</h2>
-              <p>Non aute dolore aliqua</p>
-              <a href="">Repository</a>
-              <a href="">Demo</a>
-            </div>
-          </div>
-        </section>
-        <section>
-          <img src="" alt="" />
-          <h2>Contact</h2>
-          <p>Sint eu duis aute do et.</p>
-          <form>
-            <input type="text" name="name" placeholder="Name:" /> <br />
-            <input type="text" name="email" placeholder="Email:" /> <br />
-            <input type="text" name="subject" placeholder="Subject" /> <br />
-            <input type="text" name="message" placeholder="Message" /> <br />
-            <input type="submit" value="submit" />
-          </form>
-        </section>
+  <!-- Sessão de Header/Title/Hero -->
+    <section class="title">
+      <div class="title__div">
+          <img class="title__profile" src="assets\profile.png">
+          <div class="title__container" id="#sobremim">
+              <h2 class="title__bio">Olá, meu nome é Fulana de Tal e construo páginas web</h2>
+              <h3 class="title__subsection">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+              <ul class="title__network">
+                  <!-- Ponha os links de suas redes sociais favoritas -->
+                  <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
+                  <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
+                  <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
+                  <li class="title__network__item"><a href="">Curriculo <img src="assets\arrow.png"></a></li>
+              </ul>
+              </div>
+    </section>
+
+  <!-- Sessão sobre mim -->
+    <section class="about">
+      <div class="about__container">
+          <h3 class="about__title">Sobre mim</h3>
+          <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
+          <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+          <!-- Caso queira colocar sua própria assinatura, insira aqui! -->
+          <img src="assets\signature.png">
       </div>
-    </body>
+    </section>
 
-    <footer></footer>
-  </body>
+  <!-- Sessão de Skills/Habilidades -->
+    <section class="skills">
+      <h3 class="skills__title" id="skills">Skills</h3>
+          <div class="skills__line">
+              <div class="skills__box">
+                  <ul>
+                      <li class="skills__img"><img src="assets\htlm.png"></li>
+                      <li class="skills__name"> Html 5</li>
+                  </ul>
+              </div>
+
+              <div class="skills__box">
+                  <ul>
+                      <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                      <li class="skills__name">Javascript</li>
+                  </ul>
+              </div>
+
+              <div class="skills__box">
+                  <ul>
+                      <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+                      <li class="skills__name">PHP</li>
+                  </ul>
+              </div>
+
+              <div class="skills__box">
+                  <ul>
+                      <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                      <li class="skills__name">Node JS</li>
+                  </ul>
+              </div>
+
+              <div class="skills__box">
+                  <ul>
+                      <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                      <li class="skills__name">React</li>
+                  </ul>
+              </div>
+
+              <div class="skills__box">
+                  <ul>
+                      <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                      <li class="skills__name">CSS</li>
+                  </ul>
+              </div>
+      </div>
+    </section>
+
+  <!-- Sessão de Hobbies -->    
+    <section class="hobbies" id="hobbies">
+      <h3 class="hobbies__title">Hobbies</h3>
+          <div class="hobbies__line">
+              <div class="hobbies__box">
+                  <ul>
+                      <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
+                      <li class="hobbies__name"> Andar de skate</li>
+                  </ul>
+              </div>
+
+              <div class="hobbies__box">
+                  <ul>
+                      <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
+                      <li class="hobbies__name">Tocar baixo</li>
+                  </ul>
+              </div>
+
+              <div class="hobbies__box">
+                  <ul>
+                      <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                      <li class="hobbies__name">Ouvir música</li>
+                  </ul>
+              </div>
+
+              <div class="hobbies__box">
+                  <ul>
+                      <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
+                      <li class="hobbies__name">Assistir séries</li>
+                  </ul>
+              </div>
+
+              <div class="hobbies__box">
+                  <ul>
+                      <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                      <li class="hobbies__name">Cozinhar</li>
+                  </ul>
+              </div>
+
+              <div class="hobbies__box">
+                  <ul>
+                      <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
+                      <li class="hobbies__name">Tirar fotos</li>
+                  </ul>
+              </div>
+      </div>
+    </section>
+
+  <!-- Sessão de Histórico Acadêmico -->
+    <section class="academic">
+          <h2 class="academic__title" id="formacao">Formação acadêmica</h2>
+          <div class="academic__courses">
+              <div class="academic__courses__box">
+                  <ul class="academic__courses__list">
+                      <!-- Insira a logo de seu local de formação -->
+                      <li class="academic__courses__item__img"><img src=""></li>
+                      <li class="academic__courses__item__title"><h4>Análise de dados</h4></li>
+                      <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
+                  </ul>
+              </div>
+              <div class="academic__courses__box">
+                  <ul class="academic__courses__list">
+                      <!-- Insira a logo de seu local de formação -->
+                      <li class="academic__courses__item__img"><img src=""></li>
+                      <li class="academic__courses__item__title"><h4>Formação ux Design</h4></li>
+                      <li class="academic__courses__item__subtitle"><p>2019 - Alura</p></li>
+                  </ul>
+              </div>
+              <div class="academic__courses__box">
+                  <ul class="academic__courses__list">
+                      <!-- Insira a logo de seu local de formação -->
+                      <li class="academic__courses__item__img"><img src=""></li>
+                      <li class="academic__courses__item__title"><h4>Pós-graduação design</h4></li>
+                      <li class="academic__courses__item__subtitle"><p>Em andamento - UFRJ</p></li>
+                  </ul>
+              </div>
+          </div>
+    </section>
+
+  <!-- Sessão de Experiência Profissional/Projetos-->
+    <section class="experience">
+      <h2 class="experience__section__title" id="xp">Experiência Profissional</h2>
+      <div class="experiencie__box">
+          <!-- Insira a logo/captura de seu projeto/trabalho -->
+          <img class="experience__img" src="">
+          <div class="experience__info"
+              <h2 class="experience__title">Decodificador de texto</h2>
+              <h3 class="experience__text">Challenge Alura Codificador </h3>
+                  <div class="experience__description">
+                      <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                          <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                          <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                  </div>
+          </div>
+      </div>  
+
+      <div class="experiencie__box">
+          <!-- Insira a logo/captura de seu projeto/trabalho -->
+          <img class="experience__img" src="">
+          <div class="experience__info"
+              <h2 class="experience__title">Jogo criado com HTML, CSS e JavaScript</h2>
+              <h3 class="experience__text">Challenge Oracle </h3>
+                  <div class="experience__description">
+                      <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                          <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                          <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                  </div>
+          </div>
+      </div>  
+
+      <div class="experiencie__box">
+          <!-- Insira a logo de seu projeto/trabalho -->
+          <img class="experience__img" src="">
+          <div class="experience__info"
+              <h2 class="experience__title">Decodificador de texto</h2>
+              <h3 class="experience__text">Challenge Alura Codificador </h3>
+                  <div class="experience__description">
+                      <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                          <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                          <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                  </div>
+          </div>
+      </div>  
+
+      <div class="experiencie__box">
+          <!-- Insira a logo de seu projeto/trabalho -->
+          <img class="experience__img" src="">
+          <div class="experience__info"
+          <h2 class="experience__title">Jogo criado com HTML, CSS e JavaScript</h2>
+              <h3 class="experience__text">Challenge Oracle </h3>
+                  <div class="experience__description">
+                      <!-- Insira a link para demonstração do projeto no Github e/ou GithubPages -->
+                          <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                          <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                  </div>
+      </div>
+      </div>  
+    </section>
+
+  <!-- Sessão de Contato -->
+    <section class="formcontato">
+      <div id="contato" class="formcontato__contacto">
+          <div class="formcontato--esquerda">
+              <img class="formcontato__img" src="assets\contact_image.png">
+          </div>
+          <div class="formcontato__text">
+              <h2 class="formcontato__title">Contato</h2>
+              <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
+              <h3 class="formcontato__subtext">Preencha o formulário ao lado e entrarei em contato o mais rápido possível. </h3>
+              <form class="formcontato__form">
+                  <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
+                  <input class="formcontato__input" type="email" id="email" placeholder="Email">
+                  <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
+                  <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                  <button class="formcontato__botao">Enviar mensagem</button>
+              </form>
+          </div>
+      </div>
+    </section>
+
+  <!-- Sessão de Footer/Rodapé-->
+    <section class="footer">
+      <div class="footer__rodape">
+          <p>Desenvolvido por Fulana de Tal</p>
+          <p>2022</p>
+      </div>
+    </section>
+    </div>
+
+  <!-- Script Linkado do seu documento de JavaScript -->
+<script script src="validate.js"></script>
+</body>
 </html>
